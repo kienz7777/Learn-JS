@@ -9,7 +9,7 @@ console.log(arr);// [1,3,4,6,8]
 const resultJoin = arr.join('-');
 console.log(resultJoin); // 1-3-4-6-8
 
-// splice(x,y) : remove element (x:index start,y:number) 
+// splice(x,y) : cut element (x:index start,y:number) 
 // Change first arr
 const resultSplice = arr.splice(2,2);
 console.log(resultSplice); // [ 4, 6 ]
