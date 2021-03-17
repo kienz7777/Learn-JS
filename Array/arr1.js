@@ -14,3 +14,9 @@ console.log(resultJoin); // 1-3-4-6-8
 const resultSplice = arr.splice(2,2);
 console.log(resultSplice); // [ 4, 6 ]
 console.log(arr); // [ 1, 3, 8 ]
+
+// slice(x,y) : cut element (x: start, y: end, No contain end)
+// No change first arr
+const resultSlice = arr.slice(2,5);
+console.log(resultSlice);  // [ 4, 6, 8 ]
+console.log(arr); // [ 1, 3, 4, 6, 8 ]
