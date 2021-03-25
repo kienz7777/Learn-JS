@@ -1,0 +1,6 @@
+.cha{
+    display: inline-flex;
+}
+
+/* inline-flex : thu hẹp độ rộng khít vs các con */
+/* flex : ko thu hẹp, width vẫn là 100% */

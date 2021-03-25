@@ -25,11 +25,14 @@ const resultReduce = arr.reduce((accumulator, currentValue) => {
     return accumulator + currentValue;
 },0);
 
-// initialValue : 0 ( ...},0);)
+//initialValue : 0 ( ...},0);)
 console.log('Total is: ' + resultReduce);
 
 var divide = [{x: 1}, {x:2}, {x:3}].reduce((accumulator,currentValue,index,array) =>
-    accumulator * currentValue.x
+{
+    console.log(accumulator, currentValue);
+    return accumulator * currentValue.x
+}
 ,1)
 
 console.log(divide);
