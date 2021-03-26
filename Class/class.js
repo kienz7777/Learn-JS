@@ -13,3 +13,6 @@ class User {
 // Usage:
 let user = new User("John");
 user.sayHi(); //John
+
+user.name = "kie"
+user.sayHi(); //kie         // No Encapsulation
