@@ -44,3 +44,8 @@ const arr = [1,3,4,6,8];
 // },0);
 // console.log(reduce);    // 22
 
+const arr2 = [{x: 1}, {x:2}, {x:3}];
+const reduce = arr2.reduce((accumulator, currentValue) => {
+    return accumulator + currentValue.x;
+},0);
+console.log(reduce);
